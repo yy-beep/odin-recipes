@@ -1,0 +1,58 @@
+body {
+    font-family: 'Times New Roman', Arial, sans-serif;
+    background-color: #101010;
+    color: white
+}
+
+.images {
+    margin-left: 33%;
+    height: auto;
+    width: 683px;
+    border: 3px solid red
+}
+
+.home-list {
+    font-size: 22px;
+    color: white
+}
+
+.h1-headers {
+    font-size: 38px;
+    font-weight: 900;
+    text-align: center;
+    color: #A80000
+}
+
+.h1-headers.home-header {
+    font-size: 43px;
+    color: #D08D00;
+    text-align: start;
+    margin-left: 1%
+}
+
+.h2-headers,
+.h3-headers {
+    color: #A80000
+}
+
+.h2-headers {
+    font-size: 25px
+}
+
+.h3-headers {
+     font-size: 20px
+}
+
+.description-paragraphs {
+    font-size: 18px
+}
+
+ul {
+    color: #00ABF4;
+    font-size: 17px
+}
+
+ol {
+    font-size: 18px;
+    color: #003CF4
+}
