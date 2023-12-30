@@ -5,13 +5,33 @@ body {
     border: 2px solid red;
 }
 
+.home-page h1 {
+    color: #f59402;
+    text-shadow: 1px 1px white;
+    border: 2px solid red;
+}
+
+.home-page ul li a {
+    color: white;
+    border: 2px solid red;
+}
+
 img {
+    margin-left: 35.6%;
     border: 2px solid red;
 }
 
 .container h1 {
     color: #CB9708;
     font-weight: 800;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.container h2,
+.container h3 {
+    color: #00AEBA;
+    font-weight: 700;
     border: 2px solid red;
 }
 
@@ -27,13 +47,6 @@ img {
 #eggs-page h1 {
     color: #ffa631;
     text-shadow: 1px 1px white;
-}
-
-.container h2,
-.container h3 {
-    color: #00AEBA;
-    font-weight: 700;
-    border: 2px solid red;
 }
 
 .container p {
