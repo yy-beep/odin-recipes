@@ -1,121 +1,50 @@
 body {
-    font-family: 'Times New Roman', Arial, sans-serif;
-    background-color: #0E0E0E;
+    background-color: #1f1f1f;
     color: white;
-    box-sizing: border-box;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+    border: 2px solid red;
 }
 
-
-/* Images-start */
-
-
-.images {
-    margin-left: 33%;
-    height: auto;
-    width: 683px;
+img {
+    border: 2px solid red;
 }
 
-.images.macaroni-image {
-    border: 3px solid red
+.container h1 {
+    color: #CB9708;
+    font-weight: 800;
+    border: 2px solid red;
 }
 
-.images.chocolate-image {
-    border: 3px solid lightskyblue
+#macaroni-page h1{
+    text-shadow: 1px 1px white;
 }
 
-.images.egg-image {
-    border: 3px solid #D08D00
+#cake-page h1 {
+    color: #4c3228;
+    text-shadow: 1.5px 1.5px white;
 }
 
-
-/* images-end, lists-start */
-
-
-.home-list {
-    font-size: 22px;
-    color: white
+#eggs-page h1 {
+    color: #ffa631;
+    text-shadow: 1px 1px white;
 }
 
-
-/* lists-end, headers-start */
-
-
-.h1-headers {
-    font-size: 38px;
-    font-weight: 900;
-    text-align: center;
+.container h2,
+.container h3 {
+    color: #00AEBA;
+    font-weight: 700;
+    border: 2px solid red;
 }
 
-.h2-headers {
-    font-size: 25px;
+.container p {
+    margin-left: 27px;
+    margin-bottom: 15px;
+    border: 2px solid red;
 }
 
-.h3-headers {
-    font-size: 20px
-}
-
-.h1-headers.home-header {
-    font-size: 43px;
-    color: #D08D00;
-    text-align: start;
-    margin-left: 1%
-}
-
-.h1-headers.red,
-.h2-headers.red,
-.h3-headers.red {
-    color: #A80000
-}
-
-.h1-headers.blue,
-.h2-headers.blue,
-.h3-headers.blue {
-    color: lightskyblue
-}
-
-.h1-headers.orange,
-.h2-headers.orange,
-.h3-headers.orange {
-    color: #D08D00
-}
-
-
-/* headers-end, the rest */
-
-
-.description-1,
-.description-2 {
-    font-size: 18px;
-    color: #FFFFFF
-}
-
-.description-1 {
-    background-color: #48458C;
-    border: 2px solid white;
-    padding: 5px;
-    margin: 25px;
-    margin-left: 10px;
-    margin-right: 0px;
-}
-
-.description-2 {
-    background-color: #8E2D57;
-    border: 2px solid white;
-    padding: 5px;
-    margin: 25px;
-    margin-left: 10px;
-    margin-right: 0px;
-}
-
-ul,
-ol {
-    margin-left: 10px;
-}
-
-ul {
-    font-size: 17px
-}
-
-ol {
-    font-size: 18px
+.container ul,
+.container ol {
+    /*margin-left: 40px;
+    padding-left: 0px;*/
+    border: 2px solid red;
 }
