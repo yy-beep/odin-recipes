@@ -8,18 +8,37 @@ body {
     font-family: 'Times New Roman', Helvetica, sans-serif;
 }
 
-.home-page h1 {
-    color: #f59402;
-    text-shadow: 1px 1px white; 
-}
+/* lists start */
 
 .home-page ul li a {
     color: white;
     text-decoration: none;
 }
 
+.container ul {
+    margin-left: 1400px;
+}
+
+.container ol {
+    margin-left: 400px;
+}
+
+/* lists end */
+
+.container p {
+    width: 850px;
+    margin: 0 auto;
+}
+
 img {
-    margin-left: 35.6%;
+    margin-left: 7.5%; /* 35.5% for center */
+}
+
+/* headers start */
+
+.home-page h1 {
+    color: #f59402;
+    text-shadow: 1px 1px white; 
 }
 
 .container h1 {
@@ -32,6 +51,15 @@ img {
 .container h3 {
     color: #00AEBA;
     font-weight: 700;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 35px;
+}
+
+.container h3 {
+    font-size: 22px;
 }
 
 #macaroni-page h1{
@@ -48,7 +76,4 @@ img {
     text-shadow: 1px 1px white;
 }
 
-.container p {
-    margin-left: 27px;
-    margin-bottom: 15px;
-}
+/* headers end */
